@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
     <title>Sestava in popravilo računalnika</title>
+    <script src="js.js"></script>
 </head>
 <body>
     <header>
@@ -16,20 +17,24 @@
         <a href="Popravi_svoj_racunalnik.html">Popravi svoj računalnik</a>
     </nav>
     <main>
+        <button id="stikalo" onclick="stikalo()">Vključi dark mode</button>
         <h2>Kontaktirajte nas</h2>
         <p>Za vsa vprašanja, pomoč pri sestavi ali popravilih računalnikov nas lahko kontaktirate preko spodnjih informacij:</p>
 
         <h3>Elektronska pošta:</h3>
-        <p>Za podporo in vprašanja lahko pišete na <a href="mailto:info@racunalniskipodpora.si">info@racunalniskipodpora.si</a></p>
+        <p>Za podporo in vprašanja lahko pišete na <a href="https://gmail.com">blaz.sifrer9@gmail.com</a></p>
 
         <h3>Telefon:</h3>
-        <p>Pokličite nas na številko: <strong>+386 40 123 456</strong></p>
+        <p>Pokličite nas na številko: <strong>+386 23 456 789</strong></p>
 
         <h3>Naslov:</h3>
-        <p>Računalniška podpora d.o.o.<br>
-        Ulica 123, 1000 Ljubljana, Slovenija</p>
-
+        <p>Sestava in popravilo računalnikov d.o.o.<br>
+        Kidričeva cesta 55, 4000 Kranj, Slovenija</p>
         <p>Veselimo se vaših vprašanj in se bomo potrudili, da vam pomagamo pri vseh vaših težavah s računalniki!</p>
+        <p>Delite z nami vaš email: </p>
+        <form name="email">
+            Email: <input type="email" name="email"> <br><input type="submit" onclick="document.write('Email ni bil poslan')" value="Pošlji">
+        </form>
     </main>
     <footer>
         Blaž Šifrer, 2024

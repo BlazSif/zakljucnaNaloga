@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
     <title>Sestava in popravilo računalnika</title>
+    <script src="js.js"></script>
 </head>
 <body>
     <header>
@@ -17,11 +18,15 @@
         <a href="Orodje_za_izdelavo_in_popravilo_racunalnika.html">Ostalo orodje</a>
     </nav>
     <main>
+        <button id="stikalo" onclick="stikalo()">Vključi dark mode</button>
         <h2>Dobrodošli na spletni strani "Sestava in popravilo računalnika"!</h2>
         <p>Na tej strani boste našli koristne informacije o sestavljanju, vzdrževanju in popravilih računalnikov. 
         Ne glede na to, ali gradite svoj prvi računalnik ali želite odpraviti težavo, smo tu, da vam pomagamo.</p>
-
-        <h3>Raziskujte različne vodiče in nasvete:</h3>
+        <h2>Tukaj imate vse dokumentacije za pomoč: </h2>
+        <p>Boj proti izgubi podatkov: <a href="Backup.docx">backup.word</a></p>
+        <p>Skupna raba datotek in oddaljen dostop do računalnika: <a href="Oddaljen_dostop.docx">oddaljen dostop.word</a></p>
+        <p>Filtriranje spleta(adblockerji, enkripcija gesel...): <a href="Backup.docx">Filtriranje spleta.word</a></p>
+        <h2>Raziskujte različne vodiče in nasvete:</h2>
         <ul>
             <li><strong>Zgradi svoj računalnik</strong> – korak za korakom do popolne konfiguracije.</li>
             <li><strong>Popravi svoj računalnik</strong> – pomoč pri iskanju in odpravi težav.</li>
@@ -29,6 +34,7 @@
         </ul>
 
         <p>Začnite raziskovati in postanite mojster računalništva!</p>
+        <div id="cas"></div>
     </main>
     <footer>
         Blaž Šifrer, 2024
